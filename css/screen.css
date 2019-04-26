@@ -1,7 +1,22 @@
 /*------------------------------------*\
   #FONTS
 \*------------------------------------*/
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 200;
+    src: url("../fonts/ClearSans-Light-webfont.woff") format("woff");
+}
 
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 400;
+    src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Clear Sans";
+    font-weight: 600;
+    src: url("../fonts/ClearSans-Medium-webfont.woff") format("woff");}
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -11,14 +26,11 @@
     ---
     Global page styles + universal box-sizing:
 */
-
 html {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: Helvetica, arial, sans-serif;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
+    font-family: "ClearSans",Helvetica, arial, sans-serif;
 }
 
 *,
@@ -74,6 +86,7 @@ h3 {
 }
 
 h1 {
+
     font-size: 36px;
     line-height: 48px;
     margin: 0 0 24px;
@@ -171,6 +184,11 @@ a:focus {
     overflow: auto;
     position: relative;
     padding: 24px 24px 0;
+}
+
+.o-row--gradient {
+    background: linear-gradient(to top left, #0A257D, #061649);
+    color: #fff;
 }
 
 /* size modifiers */
