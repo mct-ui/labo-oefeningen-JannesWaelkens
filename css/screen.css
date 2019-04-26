@@ -188,8 +188,10 @@ a:focus {
 
 .o-row--gradient {
     background: linear-gradient(to top left, #0A257D, #061649);
+    background-attachment: fixed;
     color: #fff;
 }
+
 
 /* size modifiers */
 
